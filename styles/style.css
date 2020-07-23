@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Footer  */
+.footer-container {
+  margin: 7rem 15rem;
+  max-height: 31.25em;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+}
+
+thead tr,
+tfoot tr {
+  text-align: left;
+  text-align: -moz-left;
+  text-align: -webkit-left;
+}
+
+th {
+  font-size: 0.6875em;
+  font-weight: 700;
+  padding-bottom: 1.5%;
+  cursor: pointer;
+}
+
+tbody {
+  font-size: 0.625em;
+  padding: 3%;
+}
+
+th,
+tbody {
+  color: #7e7e7e;
+  line-height: 1.5rem;
+}

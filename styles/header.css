@@ -1,0 +1,89 @@
+.head-section {
+  background-color: #1c67bd;
+  min-height: 32em;
+  width: 100%;
+  position: relative;
+}
+
+/* Search Bar  */
+.searchBox {
+  font-family: "Open Sans", FontAwesome, sans-serif;
+  font-weight: 400;
+  font-size: 0.75em;
+  line-height: 1.0625em;
+  width: 42.7em;
+  height: 3.3em;
+  background-color: rgba(255, 255, 255, 0.158);
+  border: transparent;
+  border-radius: 2px;
+}
+
+::placeholder {
+  color: #ebebebd7;
+  text-align: center;
+}
+
+placeholder:focus {
+  text-align: left;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ebebebce;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ebebebd0;
+}
+
+/* Navbar  */
+.navbar {
+  padding: 0.4375em 10em 0.3125em 8.85em !important;
+  background-color: #1c67bd;
+}
+
+.user-img,
+.cart-img {
+  width: 1.56em;
+}
+
+.member-text,
+.cart-text {
+  color: #fff;
+  font-size: 0.75em;
+  margin-right: 0.3125em;
+}
+
+.red-alert {
+  background-color: #ff1844;
+  color: #feffff;
+  font-size: 14px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 1.4em;
+  height: 1.4em;
+  border-radius: 50%;
+  margin-left: 5em;
+  margin-top: 1em;
+  visibility: hidden;
+}
+
+.cart-container {
+  position: relative;
+}
+
+/* Category Button  */
+.categories {
+  background-color: transparent;
+  border: none;
+  font-size: 0.87em;
+  color: #fff;
+}
+
+.fa-bars {
+  font-size: 0.83em;
+  color: #fff;
+}

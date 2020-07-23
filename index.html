@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/headerSlides.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/widgetList.css" />
+    <link rel="stylesheet" href="./styles/widgetSwiper.css" />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/5191249231.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootsrap Cdn-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- Swipper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>Vatan Bilgisayar</title>
+  </head>
+
+  <body>
+    <div class="head-section">
+      <nav class="navbar sticky-top">
+        <img src="./images/logo.png" width="109" height="42" alt="vatan-logo" />
+        <div>
+          <i class="fas fa-bars"></i>
+          <button class="categories">
+            Kategoriler
+          </button>
+        </div>
+        <input placeholder="&#61442; Ürün ara" class="searchBox" />
+        <div>
+          <span class="member-text">Üyelik</span>
+          <img src="./images/useredit.png" class="user-img" />
+        </div>
+        <div class="cart-container">
+          <span class="cart-text">Sepetim</span>
+          <div class="red-alert">0</div>
+          <img src="./images/shopping-cart.png" class="cart-img" />
+        </div>
+      </nav>
+
+      <!-- Swiper -->
+      <div class="swiper-container header-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide-1 swiper-lazy header-slide"></div>
+          <div class="swiper-slide slide-2 swiper-lazy header-slide"></div>
+          <div class="swiper-slide slide-3 swiper-lazy header-slide"></div>
+          <div class="swiper-slide slide-4 swiper-lazy header-slide"></div>
+          <div class="swiper-slide slide-5 swiper-lazy header-slide"></div>
+        </div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="arrowbox">
+        <div class="backward">
+          <i class="fas fa-caret-left"></i>
+        </div>
+        <div class="forward">
+          <i class="fas fa-caret-right"></i>
+        </div>
+      </div>
+      <!-- Add Pagination --->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Product Display Section  -->
+    <div class="featured-products-section">
+      <!-- Related Products  -->
+      <div class="related-titles-container">
+        <div class="featured-title-container">
+          <h3 class="featured-title">Öne çıkan ürünler</h3>
+        </div>
+        <div class="all-featured-link-container">
+          <h5 class="all-featured-link">TÜM ÖNE ÇIKANLAR</h5>
+          <img src="./images/right-arrow.png" class="right-arrow" />
+        </div>
+      </div>
+      <table class="col-xl-12 col-lg-10" id="related-product-container"></table>
+
+      <!-- Bestseller Products  -->
+      <div class="bestseller-titles-container">
+        <div class="bestseller-title-container">
+          <h3 class="bestseller-title">Çok Satanlar</h3>
+        </div>
+        <div class="bestseller-link-container">
+          <h5 class="bestseller-link">TÜM ÇOK SATANLAR</h5>
+          <img src="./images/right-arrow.png" class="right-arrow" />
+        </div>
+      </div>
+      <div class="swiper-container swiper-2" id="swiper-container2">
+        <div class="swiper-wrapper" id="bestseller-product-container"></div>
+      </div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-arrowbox">
+      <div class="slider-button-next">
+        <i class="fas fa-caret-right icons"></i>
+      </div>
+      <div class="slider-button-prev">
+        <i class="fas fa-caret-left icons"></i>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+    <div class="footer-container">
+      <table>
+        <thead>
+          <tr>
+            <th>KURUMSAL</th>
+            <th></th>
+            <th>KATEGORİLER</th>
+            <th></th>
+            <th>ÖZEL ÜRÜNLER</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Hakkımızda</td>
+            <td>İletişim</td>
+            <td>Bilgisayar</td>
+            <td>Küçük Ev Aletleri</td>
+            <td>Iphone 7</td>
+          </tr>
+          <tr>
+            <td>Müşteri Hizmetleri</td>
+            <td>Vatan Card</td>
+            <td>Cep Telefonu</td>
+            <td>Kişisel Bakım Ürünleri</td>
+            <td>Iphone 6S</td>
+          </tr>
+          <tr>
+            <td>Sipariş Aşamaları</td>
+            <td>Servis Takip Formu</td>
+            <td>Tablet PC</td>
+            <td>Elektrikli Süpürge</td>
+            <td>Iphone 5S</td>
+          </tr>
+          <tr>
+            <td>Sıkça Sorulan Sorular</td>
+            <td>Mağazalar</td>
+            <td>Akıllı Saat</td>
+            <td>Ütü</td>
+            <td>Iphone SE</td>
+          </tr>
+          <tr>
+            <td>İnsan Kaynakları</td>
+            <td>İşlem Rehberi</td>
+            <td>Vestel TV</td>
+            <td>Masaüstü Bilgisayar</td>
+            <td>General Mobile 5 Plus</td>
+          </tr>
+          <tr>
+            <td>Gizlilik Politikamız</td>
+            <td></td>
+            <td>Oyun Bilgisayarı</td>
+            <td>Sabit Diskler</td>
+            <td>Galaxy S7</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Note 5</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Galaxy S6</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- JavaScript  -->
+    <script src="./index.js"></script>
+  </body>
+</html>

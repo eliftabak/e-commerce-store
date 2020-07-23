@@ -1,0 +1,143 @@
+/* Swiper Slide Container  */
+.header-swiper {
+  width: 100%;
+  height: 100%;
+  margin: 15px auto;
+  height: 25em;
+}
+
+.swiper-slide {
+  flex-shrink: none;
+}
+
+.head-section .header-swiper {
+  z-index: 0;
+}
+
+.header-slide {
+  text-align: center;
+  background: #fff;
+  border-radius: 3px;
+  background-size: cover;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -moz-box-pack: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-pagination {
+  margin-left: 45%;
+}
+
+.swiper-pagination > .swiper-pagination-bullet {
+  opacity: 1;
+  border: white solid 0.5px;
+  margin: 0.3125em;
+  background-color: transparent;
+  height: 0.375em;
+  width: 0.375em;
+}
+
+.swiper-pagination > .swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+/* Header Slides */
+
+.slide-5 {
+  background-image: url("../images/phone1.png");
+  width: 30em !important;
+}
+
+.slide-1 {
+  background-image: url("../images/Webp.net-resizeimage.png");
+}
+
+.slide-2 {
+  background-image: url("../images/generalmobile.png");
+}
+
+.slide-1,
+.slide-2 {
+  width: 14.63em !important;
+}
+
+.slide-3,
+.slide-4 {
+  width: 12.92em !important;
+  background-image: url("https://via.placeholder.com/400");
+}
+
+.forward,
+.backward {
+  background-color: rgba(0, 0, 0, 0.705);
+  color: #fff;
+  border-radius: 3px;
+  height: 5em;
+  width: 2.5em;
+  align-items: center;
+  display: inline-flex;
+  position: absolute;
+  margin-top: 14.4375em;
+}
+
+.fas {
+  margin: auto;
+}
+
+.forward {
+  margin-left: 69.65625em;
+}
+
+.backward {
+  margin-left: 6.25em;
+}
+
+.arrowbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media only screen and (min-width: 1400px) {
+  .head-section {
+    padding-bottom: 30px;
+  }
+
+  .header-swiper {
+    padding: 30px 0 0 0;
+    padding-bottom: 30px;
+  }
+
+  .slide-5 {
+    width: 36em !important;
+  }
+
+  .slide-1,
+  .slide-2 {
+    width: 16.63em !important;
+  }
+
+  .slide-3,
+  .slide-4 {
+    width: 13.92em !important;
+  }
+
+  .forward {
+    margin-left: 79.75em;
+  }
+
+  .widget-list {
+    width: 220px !important;
+  }
+}
